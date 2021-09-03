@@ -1,0 +1,2058 @@
+<!doctype html>
+<html lang="fa">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="content-language" content="fa-IR">
+	<title>educational</title>
+	<link rel="stylesheet" href="css/main.css">
+<!--calender-->
+	<meta http-equiv="content-language" content="fa-IR">
+		<link rel="stylesheet" href="css/js-persian-cal.css">
+	<script type="text/javascript" src="css/js-persian-cal.min.js"></script>
+<!--calender-->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-grid.css">
+	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+<!--slider-->
+ <link rel="stylesheet" href="css/swiper.min.css">
+ <script>!function(e){
+		 "undefined"==typeof module?this.charming=e:module.exports=e
+	 }
+	 (function(e,n){
+		 "use strict";n=n||{};var t=n.tagName||"span",o=null!=n.classPrefix?n.classPrefix:"char",r=1,a=function(e){for(var n=e.parentNode,a=e.nodeValue,c=a.length,l=-1;++l<c;){var d=document.createElement(t);o&&(d.className=o+r,r++),d.appendChild(document.createTextNode(a[l])),n.insertBefore(d,e)}n.removeChild(e)};return function c(e){for(var n=[].slice.call(e.childNodes),t=n.length,o=-1;++o<t;)c(n[o]);e.nodeType===Node.TEXT_NODE&&a(e)}(e),e});
+</script>
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+<!--slider-->
+<!--cards-->
+		<link rel="stylesheet" href="css/carousel.min.css">
+        <link rel="stylesheet" href="css/theme.min.css">
+<!--cards-->
+</head> 
+
+<body>
+    <div class="top bg-dark text-light py-3">
+        <div class="container-nav topheader">
+           <div class="row">
+            <div class="col-xs-6 col-lg-8">
+                <div class="left mobile">
+                    <a class="btn btn-primary btn-sm" href="register.html" role="button" style="margin-right: -10px;">ثبت نام</a>
+                    <a class="btn btn-primary btn-sm" href="login.html" role="button">ورود</a>
+                </div>
+			   </div>
+                <!--search-->
+	<div class="row justify-content-right" style="margin-right: auto;margin-left: auto;">
+          <form class="form-inline">
+          		<button class="btn search btn-outline-success my-2 my-sm-0 " type="submit">جستجو</button>
+				<input class="form-control mr-sm-2" type="search" placeholder="جستجو کنید" aria-label="Search">
+		</form>
+    </div>
+            </div>
+                <!--search-->
+        </div>
+   </div>
+   <nav class="navbar navbar-expand-lg navbar-light bg-light bottom sticky-top shadow-sm"  style="direction: rtl;">
+    <div class="container-nav">
+			<a  class="headerLogo flex-row" href="#">
+				<div  class="logoHolder flex-col">
+					<img class="img-responsive logo" alt="تدریسکده" src="images/logo۱.png">
+				</div>
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+		</div>
+           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    			<ul class="navbar-nav ml-auto nav-fill nav-buttom">
+      				<li class="nav-item active">
+                    <a class="nav-link bg-primary text-white" terget="_blank" href="default.html"><i class="fas fa-home"></i> <span class="d-none d-sm-inline-block d-md-inline-block">صفحه اصلی</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" terget="_blank" href="#konkoor"><i class="fas fa-file-invoice"></i> <span class="d-none d-sm-inline-block d-md-inline-block">سئوالات کنکور</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#employee"><i class="fas fa-briefcase"></i> <span class="d-none d-sm-inline-block d-md-inline-block">نمونه امتحان های استخدامی</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link text-dark dropdown-toggle" href="#university" id="navbarDropdown" role="button" data-toggle="dropdown" saria-haspopup="true" aria-expanded="false"><i class="fas fa-book"></i> <span class="d-none d-sm-inline-block d-md-inline-block">دروس دانشگاهی</span><span class="caret"></span></a>
+                    <ul class="dropdown-menu mega" aria-labelledby="navbarDropdown">
+						<ul class="sub-menu">
+							<li class="dropdown-header">فنی و مهندسی</li>
+							<li><a href="">مهندسی کامپیوتر</a></li>
+							<li><a href="">مهندسی صنایع</a></li>
+							<li><a href="">مهندسی مکانیک</a></li>
+							<li><a href="">مهندسی برق</a></li>
+							<li><a href="">مهندسی شیمی</a></li>
+						</ul>
+						<ul class="sub-menu">
+							<li class="dropdown-header">علوم انسانی</li>
+							<li><a href="">زبان وادبيات فارسی</a></li>
+							<li><a href="">مجموعه علوم ورزشی</a></li>
+							<li><a href="">تاريخ</a></li>
+							<li><a href="">مجموعه علوم اقتصادی</a></li>
+							<li><a href="">مجموعه زبان شناسی</a></li>
+						</ul>
+						<ul class="sub-menu">
+							<li class="dropdown-header">علوم پایه</li>
+							<li><a href="">فیزیک</a></li>
+							<li><a href="">شیمی</a></li>
+							<li><a href="">زیست شناسی</a></li>
+							<li><a href="">ریاضی</a></li>
+						</ul>
+					</ul>
+<!--                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					  <a class="dropdown-item" href="#">Action</a>
+					  <a class="dropdown-item" href="#">Another action</a>
+					  <div class="dropdown-divider"></div>
+					  <a class="dropdown-item" href="#">Something else here</a>
+					</div>-->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="aboutUs.html"><i class="fas fa-user-circle"></i> <span class="d-none d-sm-inline-block d-md-inline-block">درباره ما</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="contactUs.html"><i class="fas fa-phone"></i> <span class="d-none d-sm-inline-block d-md-inline-block">تماس با ما</span></a>
+                </li>
+                <li class="dropdown" style="margin-right: 160px;">
+			  <a href="#" class="nav-link text-dark dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> <i class="fa fa-shopping-cart"></i><span class="d-none d-sm-inline-block d-md-inline-block">تعداد خرید:7</span></a>
+			  <ul class="dropdown-menu dropdown-cart" role="menu">
+				  <li>
+					  <span class="item">
+						<span class="item-left">
+							<img src="http://lorempixel.com/50/50/" alt="" />
+							<span class="item-info">
+								<span>اسم محصول</span>
+								<span>۱۰۰۰۰ریال</span>
+							</span>
+						</span>
+						<span class="item-right">
+							<button class="btn btn-xs btn-danger pull-right">x</button>
+						</span>
+					</span>
+				  </li>
+				  <li>
+					  <span class="item">
+						<span class="item-left">
+							<img src="http://lorempixel.com/50/50/" alt="" />
+							<span class="item-info">
+								<span>اسم محصول</span>
+								<span>۱۰۰۰۰ریال</span>
+							</span>
+						</span>
+						<span class="item-right">
+							<button class="btn btn-xs btn-danger pull-right">x</button>
+						</span>
+					</span>
+				  </li>
+				  <li>
+					  <span class="item">
+						<span class="item-left">
+							<img src="http://lorempixel.com/50/50/" alt="" />
+							<span class="item-info">
+								<span>نام محصول</span>
+								<span>۱۰۰۰۰ریال</span>
+							</span>
+						</span>
+						<span class="item-right">
+							<button class="btn btn-xs btn-danger pull-right">x</button>
+						</span>
+					</span>
+				  </li>
+				  <li>
+					  <span class="item">
+						<span class="item-left">
+							<img src="http://lorempixel.com/50/50/" alt="" />
+							<span class="item-info">
+								<span>نام محصول</span>
+								<span>۱۰۰۰۰ریال</span>
+							</span>
+						</span>
+						<span class="item-right">
+							<button class="btn btn-xs btn-danger pull-right">x</button>
+						</span>
+					</span>
+				  </li>
+				  <li class="divider"></li>
+				  <li><a class="text-center" href="shoppingCaret.html">نمایش خریدها</a></li>
+				</ul>
+			</li>
+          </ul>
+
+    </div>
+	</nav>
+  
+   <div class="container-fluid main">
+  			<!--slider-->
+ 		<section class="slider-nav">
+
+		  <div class="swiper-container slideshow">
+
+    		<div class="swiper-wrapper">
+
+    		  <div class="swiper-slide slide">
+        		<div class="slide-image" style="background-image: url( images/html-color-codes-color-tutorials-hero-00e10b1f.jpg)"></div>
+        <span class="slide-title">Exotic places</span>
+      </div>
+
+ 		     <div class="swiper-slide slide">
+        <div class="slide-image" style="background-image: url(https://images.unsplash.com/photo-1500375592092-40eb2168fd21?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e07d2457879a4e15577ec75a31023e47&auto=format&fit=crop&w=2134&q=80"></div>
+        <span class="slide-title">Meet ocean</span>
+      </div>
+
+ 		     <div class="swiper-slide slide">
+        <div class="slide-image" style="background-image: url(https://images.unsplash.com/photo-1482059470115-0aadd6bf6834?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=267bba9a4e280ec64388fe8fb01e9d1b&auto=format&fit=crop&w=1950&q=80"></div>
+        <span class="slide-title">Around the world</span>
+      </div>
+
+      <!--         <div class="swiper-slide slide">
+          <div class="slide-imageswiper-lazy" data-background="https://images.unsplash.com/photo-1538083024336-555cf8943ddc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=66b476a51b19889e13182c0e4827af18&auto=format&fit=crop&w=1950&q=80">
+          </div>
+          </div>
+          <span class="slide-title">Exotic places</span>
+        </div>
+      
+        <div class="swiper-slide slide">
+          <div class="slide-image swiper-lazy" data-background="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e07d2457879a4e15577ec75a31023e47&auto=format&fit=crop&w=2134&q=80">
+          </div>
+          <span class="slide-title">Meet ocean</span>
+        </div>
+      
+        <div class="swiper-slide slide">
+          <div class="slide-image swiper-lazy" data-background="https://images.unsplash.com/photo-1482059470115-0aadd6bf6834?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=267bba9a4e280ec64388fe8fb01e9d1b&auto=format&fit=crop&w=1950&q=80">
+          </div>
+          <span class="slide-title">Around the world</span>
+        </div> -->
+
+    </div>
+
+    <div class="slideshow-pagination"></div>
+
+    <div class="slideshow-navigation">
+      <div class="slideshow-navigation-button prev"><span class="fas fa-chevron-left"></span></div>
+      <div class="slideshow-navigation-button next"><span class="fas fa-chevron-right"></span></div>
+    </div>
+
+  </div>
+
+		</section> 			
+  			<!-- slider--> 
+  			<hr>
+  			<!-- Info block -->
+			<section class="info-section demo">
+				<div class="container">
+		<div class="head-box text-center mb-5">
+			<h2>درباره ما</h2>
+			<h6>خدماتی که مادر اختیارتان قرار میدهیم</h6>
+		</div>
+		<div class="three-panel-block mt-5">
+			<div class="row">
+				<div class="col-lg-4 col-md-6 col-sm-6">
+					<div class="service-block-overlay text-center mb-5 p-lg-3">
+						<div class="box-circle-solid">
+							<i class="fa fa-coins mt-3 mb-3" aria-hidden="true"  style="font-size: 22pt;"></i>
+						</div>
+						<h3>قیمت مناسب</h3>
+						<p class="px-4">قیمت های رقابتی در بیشترین تنوع محصولات</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-6">
+					<div class="service-block-overlay text-center mb-5 p-lg-3">
+						<div class="box-circle-solid">
+							<i class="fa fa-shield-alt mt-3 mb-3" aria-hidden="true" style="font-size: 22pt;"></i>
+						</div>
+						<h3>امنیت در پرداخت</h3>
+						<p class="px-4">پرداخت آنلاین از درگاه های امن اینترنتی و پرداخت در محل</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-6">
+					<div class="service-block-overlay text-center mb-5 p-lg-3 ">
+						<div class="box-circle-solid">
+							<i class="fa fa-headphones mt-2 mb-1" aria-hidden="true" style="font-size: 22pt;"></i>
+						</div>
+						<h3>ارتباط مستقیم</h3>
+						<p class="px-4">دسترسی سریع و آسان از طریق شبکه های اجتماعی</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-6">
+					<div class="service-block-overlay text-center p-lg-3">
+						<div class="box-circle-solid">
+							<i class="fa fa-location-arrow mt-3 mb-3" aria-hidden="true" style="font-size: 22pt;"></i>
+						</div>
+						<h3>در دسترس شما</h3>
+						<p class="px-4">تمام فایل های مورد نیاز خود را از این سایت میتوانید تهیه کنید</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-6">
+					<div class="service-block-overlay text-center p-lg-3">
+						<div class="box-circle-solid">
+							<i class="fa fa-star mt-3 mb-3" aria-hidden="true" style="font-size: 22pt;"></i>
+						</div>
+						<h3>محصولات متنوع </h3>
+						<p class="px-4">همواره در حال به روزرسانی محصولاتمان هستیم تا بتوانیم نیازهای شما را برآورده سازیم.</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-6">
+					<div class="service-block-overlay text-center p-lg-3">
+						<div class="box-circle-solid">
+							<i class="fa fa-phone mt-3 mb-3" aria-hidden="true" style="font-size: 22pt;"></i>
+						</div>
+						<h3>پاسخگویی ۲۴ ساعته در ۷ روز هفته</h3>
+						<p class="px-4">پشتیبانی ما برای مشتریان وفادارمان همواره پا برجاست و جهت خدمت رسانی به آنها آماده هستیم.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+			</section>
+
+  			<!-- Info block -->
+  			 <hr>
+	   		<!--کنکور-->
+        <div class="container" >
+       <div class="head-box text-center mb-5">
+			<h2 id="konkoor">سئوالات کنکور</h2>
+			<h6 class="text-underline-primary">جدیدترین نمونه سئوالات را برای شما فراهم میکنیم</h6>
+		</div>   
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="news-slider2" class="owl-carousel">
+                        <div class="post-slide2"  dir="rtl">
+                            <div class="post-img">
+                                <a href="#"><img src="http://bestjquery.com/tutorial/news-slider/demo33/images/img-1.jpg" alt=""></a>
+                            </div>
+                            <div class="post-content">
+                                <h3 class="post-title"><a href="#">سئوالات کنکور ۹۷با پاسخ</a></h3>
+                                <p class="post-description">
+شما میتوانید تمام سئوالات کنکور ۹۷ را با پاسخ کاملا تشریحی در این لینک بیابید
+                                </p>
+                                <ul class="post-bar">
+                                    <li><i class="fa fa-calendar"></i> ۱۳۹۸/۵/۱۲</li>
+                                    <li>
+                                        <i class="fa fa-folder"></i>
+                                        <a href="#">Zip</a>
+                                        <a href="#">PDF</a>
+                                        <a href="#">Word</a>
+                                    </li>
+                                </ul>
+                                <a href="#" class="read-more">بیشتر بخوانید</a>
+                            </div>
+                        </div>
+     
+                        <div class="post-slide2"  dir="rtl">
+                            <div class="post-img">
+                                <a href="#"><img src="http://bestjquery.com/tutorial/news-slider/demo33/images/img-2.jpg" alt=""></a>
+                            </div>
+                            <div class="post-content">
+                                <h3 class="post-title"><a href="#">سئوالات کنکور ۹۸</a></h3>
+                                <p class="post-description">
+شما میتوانید تمام سئوالات کنکور ۹۸ را با پاسخ کاملا تشریحی در این لینک بیابید
+                                </p>
+                                <ul class="post-bar">
+                                    <li><i class="fa fa-calendar"></i> ۱۳۹۸/۶/۲۳</li>
+                                    <li>
+                                        <i class="fa fa-folder"></i>
+                                        <a href="#">Zip</a>
+                                        <a href="#">PDF</a>
+                                        <a href="#">Word</a>
+                                    </li>
+                                </ul>
+                                <a href="#" class="read-more">بیشتر بخوانید</a>
+                            </div>
+                        </div>
+                        
+                        <div class="post-slide2"  dir="rtl">
+                            <div class="post-img">
+                                <a href="#"><img src="http://bestjquery.com/tutorial/news-slider/demo33/images/img-1.jpg" alt=""></a>
+                            </div>
+                            <div class="post-content">
+                                <h3 class="post-title"><a href="#">سئوالات کنکور ۹۷با پاسخ</a></h3>
+                                <p class="post-description">
+شما میتوانید تمام سئوالات کنکور ۹۷ را با پاسخ کاملا تشریحی در این لینک بیابید
+                                </p>
+                                <ul class="post-bar">
+                                    <li><i class="fa fa-calendar"></i> ۱۳۹۸/۵/۱۲</li>
+                                    <li>
+                                        <i class="fa fa-folder"></i>
+                                        <a href="#">Zip</a>
+                                        <a href="#">PDF</a>
+                                        <a href="#">Word</a>
+                                    </li>
+                                </ul>
+                                <a href="#" class="read-more">بیشتر بخوانید</a>
+                            </div>
+                        </div>
+     
+                        <div class="post-slide2"  dir="rtl">
+                            <div class="post-img">
+                                <a href="#"><img src="http://bestjquery.com/tutorial/news-slider/demo33/images/img-2.jpg" alt=""></a>
+                            </div>
+                            <div class="post-content">
+                                <h3 class="post-title"><a href="#">سئوالات کنکور ۹۸</a></h3>
+                                <p class="post-description">
+شما میتوانید تمام سئوالات کنکور ۹۸ را با پاسخ کاملا تشریحی در این لینک بیابید
+                                </p>
+                                <ul class="post-bar">
+                                    <li><i class="fa fa-calendar"></i> ۱۳۹۸/۶/۲۳</li>
+                                    <li>
+                                        <i class="fa fa-folder"></i>
+                                        <a href="#">Zip</a>
+                                        <a href="#">PDF</a>
+                                        <a href="#">Word</a>
+                                    </li>
+                                </ul>
+                                <a href="#" class="read-more">بیشتر بخوانید</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+	   		<hr>
+   	<!--	کنکور-->
+   		<!--نمونه سئوالات استخدامی-->
+   		    <div class="container">
+      <div class="head-box text-center mb-5">
+			<h2  id="employee">نمونه سئوالات امتحانی</h2>
+			<h6 class="text-underline-primary">جدیدترین نمونه سئوالات را برای شما فراهم میکنیم</h6>
+		</div>
+        <div class="row">
+            <div class="col-md-12">
+                <div id="news-slider6" class="owl-carousel">
+                    <div class="post-slide6"  dir="rtl">
+                        <div class="post-img">
+                            <img src="http://bestjquery.com/tutorial/news-slider/demo28/images/img-1.jpg" alt="">
+                            <div class="post-info">
+                                <ul class="category">
+                                    <li> <a href="#">نوشته شده</a></li>
+                                    <li>توسط <a href="#">admin</a></li>
+                                </ul>
+                                <span class="post-date">۱۳۹۸/۵/۲۶</span>
+                            </div>
+                        </div>
+                        <div class="post-review">
+                            <span class="icons">
+                                <img src="http://bestjquery.com/tutorial/news-slider/demo28/images/img-5.jpg" alt="">
+                            </span>
+                            <h3 class="post-title"><a href="#">نمونه سئوال امتحانی استخدام در شرکت نفت</a></h3>
+                            <p class="post-description">جدیدترین و به روز ترین نمونه سئوالات استخدامی شرکت نفت را در این لینک مشاهده نمایید</p>
+                            <a href="#" class="read">بیشتر بخوانید</a>
+                        </div>
+                    </div>
+     
+                    <div class="post-slide6"  dir="rtl">
+                        <div class="post-img">
+                            <img src="http://bestjquery.com/tutorial/news-slider/demo28/images/img-2.jpg" alt="">
+                            <div class="post-info">
+                                <ul class="category">
+                                    <li> <a href="#">نوشته شده</a></li>
+                                    <li>توسط <a href="#">admin</a></li>
+                                </ul>
+                                <span class="post-date">۱۳۹۸/۶/۲۵</span>
+                            </div>
+                        </div>
+                        <div class="post-review">
+                            <span class="icons">
+                                <img src="http://bestjquery.com/tutorial/news-slider/demo28/images/img-6.jpg" alt="">
+                            </span>
+                            <h3 class="post-title"><a href="#">نمونه سئوالات استخدام در شرکت آب و فاضلاب</a></h3>
+                            <p class="post-description">جدیدترین و به روز ترین نمونه سئوالات استخدامی شرکت آب و فاضلاب را در این لینک مشاهده نمایید.</p>
+                            <a href="#" class="read">بیشتر بخوانید</a>
+                        </div>
+                    </div>
+                    
+                    <div class="post-slide6"  dir="rtl">
+                        <div class="post-img">
+                            <img src="http://bestjquery.com/tutorial/news-slider/demo28/images/img-1.jpg" alt="">
+                            <div class="post-info">
+                                <ul class="category">
+                                    <li> <a href="#">نوشته شده</a></li>
+                                    <li>توسط <a href="#">admin</a></li>
+                                </ul>
+                                <span class="post-date">۱۳۹۸/۵/۲۶</span>
+                            </div>
+                        </div>
+                        <div class="post-review">
+                            <span class="icons">
+                                <img src="http://bestjquery.com/tutorial/news-slider/demo28/images/img-5.jpg" alt="">
+                            </span>
+                            <h3 class="post-title"><a href="#">نمونه سئوال امتحانی استخدام در شرکت نفت</a></h3>
+                            <p class="post-description">جدیدترین و به روز ترین نمونه سئوالات استخدامی شرکت نفت را در این لینک مشاهده نمایید</p>
+                            <a href="#" class="read">بیشتر بخوانید</a>
+                        </div>
+                    </div>
+     
+                    <div class="post-slide6"  dir="rtl">
+                        <div class="post-img">
+                            <img src="http://bestjquery.com/tutorial/news-slider/demo28/images/img-2.jpg" alt="">
+                            <div class="post-info">
+                                <ul class="category">
+                                    <li> <a href="#">نوشته شده</a></li>
+                                    <li>توسط <a href="#">admin</a></li>
+                                </ul>
+                                <span class="post-date">۱۳۹۸/۶/۲۵</span>
+                            </div>
+                        </div>
+                        <div class="post-review">
+                            <span class="icons">
+                                <img src="http://bestjquery.com/tutorial/news-slider/demo28/images/img-6.jpg" alt="">
+                            </span>
+                            <h3 class="post-title"><a href="#">نمونه سئوالات استخدام در شرکت آب و فاضلاب</a></h3>
+                            <p class="post-description">جدیدترین و به روز ترین نمونه سئوالات استخدامی شرکت آب و فاضلاب را در این لینک مشاهده نمایید.</p>
+                            <a href="#" class="read">بیشتر بخوانید</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+   		<!--نمونه سئوالات استخدامی-->
+   		<!--دروس دانشگاهی کارشناسی-->
+   	<div class="container-fluid">
+   	      <div class="head-box text-center mb-5">
+			<h2  id="university">دروس دانشگاهی کارشناسی</h2>
+			<h6 class="text-underline-primary">جدیدترین نمونه سئوالات را برای شما فراهم میکنیم</h6>
+		</div>
+	   <section class="projects-section">		
+		<div class="outer-container">
+			<div class="projects-section owl-carousel owl-theme">
+				<div class="project-block">
+					<div class="inner-box">
+						<div class="image">
+							<img src="http://steelthemes.com/demo/html/consoul/images/gallery/1.jpg" alt="" />
+							<div class="overlay-box">
+								<div class="overlay-inner">
+									<div class="title">دروس فنی و مهندسی</div>
+									<h3><a href="#">مهندسی کامپیوتر</a></h3>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>				
+				<div class="project-block">
+					<div class="inner-box">
+						<div class="image">
+							<img src="http://steelthemes.com/demo/html/consoul/images/gallery/2.jpg" alt="" />
+							<div class="overlay-box">
+								<div class="overlay-inner">
+									<div class="title">دروس فنی و مهندسی</div>
+									<h3><a href="project-single.html">مهندسی صنایع</a></h3>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>				
+				<div class="project-block">
+					<div class="inner-box">
+						<div class="image">
+							<img src="http://steelthemes.com/demo/html/consoul/images/gallery/3.jpg" alt="" />
+							<div class="overlay-box">
+								<div class="overlay-inner">
+									<div class="title">دروس علوم انسانی</div>
+									<h3><a href="project-single.html">زبان و ادبیات فارسی</a></h3>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>				
+				<div class="project-block">
+					<div class="inner-box">
+						<div class="image">
+							<img src="http://steelthemes.com/demo/html/consoul/images/gallery/4.jpg" alt="" />
+							<div class="overlay-box">
+								<div class="overlay-inner">
+									<div class="title">دروس علوم انسانی </div>
+									<h3><a href="project-single.html">مجموعه علوم اقتصادی</a></h3>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>				
+				<div class="project-block">
+					<div class="inner-box">
+						<div class="image">
+							<img src="http://steelthemes.com/demo/html/consoul/images/gallery/5.jpg" alt="" />
+							<div class="overlay-box">
+								<div class="overlay-inner">
+									<div class="title">دروس علوم پایه</div>
+									<h3><a href="project-single.html">فیزیک</a></h3>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>				
+				<div class="project-block">
+					<div class="inner-box">
+						<div class="image">
+							<img src="http://steelthemes.com/demo/html/consoul/images/gallery/6.jpg" alt="" />
+							<div class="overlay-box">
+								<div class="overlay-inner">
+									<div class="title">دروس علوم پایه</div>
+									<h3><a href="project-single.html">شیمی</a></h3>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>				
+				<div class="project-block">
+					<div class="inner-box">
+						<div class="image">
+							<img src="http://steelthemes.com/demo/html/consoul/images/gallery/7.jpg" alt="" />
+							<div class="overlay-box">
+								<div class="overlay-inner">
+									<div class="title">دروس علوم پایه</div>
+									<h3><a href="project-single.html">ریاضی</a></h3>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>			
+			</div>			
+		</div>		
+	</section>
+   </div>
+	   <!--دروس دانشگاهی کارشناسی-->
+   		    <div class="container">
+        <h3 class="h3">New slider Demo - 7</h3>
+        <div class="row">
+            <div class="col-md-12">
+                <div id="news-slider7" class="owl-carousel">
+                    <div class="post-slide7"  dir="rtl">
+                        <div class="post-img">
+                            <img src="http://bestjquery.com/tutorial/news-slider/demo26/images/img-1.jpg" alt="">
+                            <span class="icons">
+                                <img src="http://bestjquery.com/tutorial/news-slider/demo26/images/img-5.jpg" alt="">
+                            </span>
+                        </div>
+                        <div class="post-review">
+                            <ul class="post-bar">
+                                <li><i class="fa fa-calendar"></i>۱۳۹۸/۶/۲۱</li>
+                                <li><i class="fa fa-user"></i> admin</li>
+                            </ul>
+                            <h4 class="post-title">دروس فنی و مهندسی</h4>
+                            <h2 class="post-title">مهندسی کامپیوتر</h2>
+                            <p class="post-description">
+                            شما میتوانید جدیدترین نمونه سئوالات این رشته کارشناسی را در ادامه این مطلب بیابید. </p>
+                            <a href="#" class="read">بیشتر بخوانید<i class="fa fa-angle-right"></i></a>
+                        </div>
+                    </div>
+     
+                    <div class="post-slide7"   dir="rtl">
+                        <div class="post-img">
+                            <img src="http://bestjquery.com/tutorial/news-slider/demo26/images/img-2.jpg" alt="">
+                            <span class="icons">
+                                <img src="http://bestjquery.com/tutorial/news-slider/demo26/images/img-6.jpg" alt="">
+                            </span>
+                        </div>
+                        <div class="post-review">
+                            <ul class="post-bar">
+                                <li><i class="fa fa-calendar"></i>۱۳۹۸/۵/۳۱</li>
+                                <li><i class="fa fa-user"></i> admin</li>
+                            </ul>
+                            <h4 class="post-title">دروس فنی و مهندسی</h4>
+                            <h2 class="post-title">مهندسی صنایع</h2>
+                            <p class="post-description"> شما میتوانید جدیدترین نمونه سئوالات این رشته کارشناسی را در ادامه این مطلب بیابید. </p>
+                            <a href="#" class="read">بیشتر بخوانید<i class="fa fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="post-slide7"   dir="rtl">
+                        <div class="post-img">
+                            <img src="http://bestjquery.com/tutorial/news-slider/demo26/images/img-3.jpg" alt="">
+                            <span class="icons">
+                                <img src="http://bestjquery.com/tutorial/news-slider/demo26/images/img-5.jpg" alt="">
+                            </span>
+                        </div>
+                        <div class="post-review">
+                            <ul class="post-bar">
+                                <li><i class="fa fa-calendar"></i>۱۳۹۸/۶/۲۱</li>
+                                <li><i class="fa fa-user"></i> admin</li>
+                            </ul>
+                            <h4 class="post-title">دروس علوم انسانی</h4>
+                            <h2 class="post-title">زبان و ادبیات فارسی</h2>
+                            <p class="post-description"> شما میتوانید جدیدترین نمونه سئوالات این رشته کارشناسی را در ادامه این مطلب بیابید. </p>
+                            <a href="#" class="read">بیشتر بخوانید<i class="fa fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="post-slide7"   dir="rtl">
+                        <div class="post-img">
+                            <img src="http://bestjquery.com/tutorial/news-slider/demo26/images/img-4.jpg" alt="">
+                            <span class="icons">
+                                <img src="http://bestjquery.com/tutorial/news-slider/demo26/images/img-6.jpg" alt="">
+                            </span>
+                        </div>
+                        <div class="post-review">
+                            <ul class="post-bar">
+                                <li><i class="fa fa-calendar"></i>۱۳۹۸/۶/۳</li>
+                                <li><i class="fa fa-user"></i> admin</li>
+                            </ul>
+                            <h4 class="post-title">دروس علوم پایه</h4>
+                            <h2 class="post-title">فیزیک</h2>
+                            <p class="post-description"> شما میتوانید جدیدترین نمونه سئوالات این رشته کارشناسی را در ادامه این مطلب بیابید. </p>
+                            <a href="#" class="read">بیشتر بخوانید<i class="fa fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	   		
+	   <!--مشتریان ما-->
+	   <hr>
+	   <div class="container">
+    	      <div class="head-box text-center mb-5">
+			<h2>مشتریان ما</h2>
+			<h6 class="text-underline-primary">با بخشی از مشتریان ما آشنا شوید</h6>
+		</div>
+   <section class="customer-logos slider">
+      <div class="slide"><img src="https://image.freepik.com/free-vector/abstract-cross-logo_23-2147536124.jpg"></div>
+      <div class="slide"><img src="https://image.freepik.com/free-vector/colors-curl-logo-template_23-2147536125.jpg"></div>
+      <div class="slide"><img src="https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg"></div>
+      <div class="slide"><img src="https://image.freepik.com/free-vector/blue-tech-logo_1103-822.jpg"></div>
+      <div class="slide"><img src="https://image.freepik.com/free-vector/colors-curl-logo-template_23-2147536125.jpg"></div>
+      <div class="slide"><img src="https://image.freepik.com/free-vector/abstract-cross-logo_23-2147536124.jpg"></div>
+      <div class="slide"><img src="https://image.freepik.com/free-vector/football-logo-background_1195-244.jpg"></div>
+      <div class="slide"><img src="https://image.freepik.com/free-vector/blue-tech-logo_1103-822.jpg"></div>
+      <div class="slide"><img src="https://image.freepik.com/free-vector/blue-tech-logo_1103-822.jpg"></div>
+   </section>
+</div>
+	   <!--مشتریان ما-->
+	   		<!--comments-->
+ <hr>
+    <div class="container">
+       <div class="head-box text-center mb-5">
+			<h2>پرسش و پاسخ ها</h2>
+			<h6 class="text-underline-primary">پذیرای پیشنهادات و انتقادات شما هستیم</h6>
+		</div>
+        <div class="row">
+            <div class="col-md-12">
+                <div id="news-slider12" class="owl-carousel">
+                    <div class="post-slide12"  dir="rtl">
+                        <div class="post-img">
+                            <span class="over-layer"></span>
+                            <img src="http://bestjquery.com/tutorial/news-slider/demo15/images/img-1.jpg" alt="">
+                        </div>
+                        <div class="post-review" >
+                            <h3 class="post-title"><a href="#">زهره</a></h3>
+                            <span class="post-date">۱۳۹۸/۶/۲۱</span>
+                            <p class="post-description">
+با تشکر از سایت خوبتون و فایل هایی که در اختیار ما میگذارید.			
+                            </p>
+                        </div>
+                    </div>
+     
+                    <div class="post-slide12">
+                        <div class="post-img">
+                            <span class="over-layer"></span>
+                            <img src="http://bestjquery.com/tutorial/news-slider/demo15/images/img-1.jpg" alt="">
+                        </div>
+                        <div class="post-review">
+                            <h3 class="post-title"><a href="#">زهره</a></h3>
+                            <span class="post-date">۱۳۹۸/۶/۲۱</span>
+                            <p class="post-description">
+با تشکر از سایت خوبتون و فایل هایی که در اختیار ما میگذارید.			
+                            </p>
+                        </div>
+                    </div>
+     
+                    <div class="post-slide12">
+                        <div class="post-img">
+                            <span class="over-layer"></span>
+                            <img src="http://bestjquery.com/tutorial/news-slider/demo15/images/img-1.jpg" alt="">
+                        </div>
+                        <div class="post-review">
+                            <h3 class="post-title"><a href="#">زهره</a></h3>
+                            <span class="post-date">۱۳۹۸/۶/۲۱</span>
+                            <p class="post-description">
+با تشکر از سایت خوبتون و فایل هایی که در اختیار ما میگذارید.			
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="post-slide12">
+                        <div class="post-img">
+                            <span class="over-layer"></span>
+                            <img src="http://bestjquery.com/tutorial/news-slider/demo15/images/img-1.jpg" alt="">
+                        </div>
+                        <div class="post-review">
+                            <h3 class="post-title"><a href="#">زهره</a></h3>
+                            <span class="post-date">۱۳۹۸/۶/۲۱</span>
+                            <p class="post-description">
+با تشکر از سایت خوبتون و فایل هایی که در اختیار ما میگذارید.			
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+	   		<!--comments-->	
+	</div>
+	<!--footer starts from here-->
+<footer class="footer">
+<div class="container bottom_border">
+<div class="row">
+<div class=" col-sm-4 col-md col-sm-4  col-12 col">
+<h5 class="headin5_amrc col_white_amrc pt2">درباره ما</h5>
+<!--headin5_amrc-->
+<p class="mb10 justify-content-center">موسسه تدریسکده با شعار فکر کنید و رشد کنید در تلاش است تا تمام محتوای مورد نیز دانشجویان و کنکوری ها را فراهم کند و به دانشجویان از  ورود به دانشگاه تا فارغ التحصیلی و کاریابی یاری رساند و همراه آنها میباشد. </p>
+<p><i class="fa fa-location-arrow"></i>  ...خیابان </p>
+<p><i class="fa fa-phone"></i>  +91-9999878398  </p>
+<p><i class="fa fa fa-envelope"></i> info@example.com  </p>
+
+</div>
+
+<div class=" col-sm-4 col-md  col-6 col">
+<h5 class="headin5_amrc col_white_amrc pt2">لینک ها مفید</h5>
+<!--headin5_amrc-->
+<ul class="footer_ul_amrc">
+<li><a href="#">مقالات</a></li>
+<li><a href="#">سئوالات متداول</a></li>
+<li><a href="#">تماس با ما</a></li>
+<li><a href="#">فروشگاه ما</a></li>
+<li><a href="#">همکاری با ما</a></li>
+</ul>
+<!--footer_ul_amrc ends here-->
+</div>
+
+
+<div class=" col-sm-4 col-md  col-6 col">
+<h5 class="headin5_amrc col_white_amrc pt2">دروس دانشگاهی</h5>
+<!--headin5_amrc-->
+<ul class="footer_ul_amrc">
+<li><a href="#">دروس کاردانی</a></li>
+<li><a href="#">دروس کارشناسی</a></li>
+<li><a href="#">دروس کارشناسی ارشد</a></li>
+<li><a href="#">دروس دکترا</a></li>
+<li><a href="#">دروس فوق دکترا</a></li>
+</ul>
+<!--footer_ul_amrc ends here-->
+</div>
+
+
+<div class=" col-sm-4 col-md  col-12 col">
+<h5 class="headin5_amrc col_white_amrc pt2">ما را دنبال کنید</h5>
+<!--headin5_amrc ends here-->
+
+<ul class="footer_ul2_amrc">
+<li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>ما را در شبکه های اجتماعی دنبال کنید<a href="#">https://www.lipsum.com/</a></p></li>
+<li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>ما را در شبکه های اجتماعی دنبال کنید<a href="#">https://www.lipsum.com/</a></p></li>
+	</ul>
+<div class="section-heading">
+      <h5 class="headin5_amrc col_white_amrc pt2">با ما در ارتباط باشید</h5>
+      <span class="animate-border border-black"></span>
+</div>
+<p><!-- Don’t miss to subscribe to our new feeds, kindly fill the form below. -->
+برای اطلاع از جدیدترین دروس و تخفیف‌ها ایمیل خود را وارد کنید </p>
+<form action="#">
+     <div class="form-row">
+           <div class="col dk-footer-form">
+                  <input type="email" class="form-control" placeholder=" ایمیل خود را وارد نمایید">
+                  <button type="submit">
+                  	<i class="fa fa-paper-plane"></i>
+                  </button>
+           </div>
+     </div>
+</form>
+<!--footer_ul2_amrc ends here-->
+</div>
+</div>
+</div>
+
+
+<div class="container">
+<ul class="foote_bottom_ul_amrc">
+<li><a href="#">صفحه اصلی</a></li>
+<li><a href="#">درباره ما</a></li>
+<li><a href="#">تماس با ما</a></li>
+<li><a href="#">فروشگاه</a></li>
+<li><a href="#">مقالات</a></li>
+<li><a href="#">دروس دانشگاهی</a></li>
+</ul>
+<!--foote_bottom_ul_amrc ends here-->
+<p class="text-center">Copyright @2019 Tadriskade.com | طراحی شده توسط <a href="#">شرکت فنی مهندسی تدریسکده</a></p>
+
+<ul class="social_footer_ul">
+<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+</ul>
+<!--social_footer_ul ends here-->
+</div>
+
+</footer>
+<!--fontawesom-->
+<script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
+<!--fontawesom-->
+<script>
+$(function() {
+
+    $('#login-form-link').click(function(e) {
+		$("#login-form").delay(100).fadeIn(100);
+ 		$("#register-form").fadeOut(100);
+		$('#register-form-link').removeClass('active');
+		$(this).addClass('active');
+		e.preventDefault();
+	});
+	$('#register-form-link').click(function(e) {
+		$("#register-form").delay(100).fadeIn(100);
+ 		$("#login-form").fadeOut(100);
+		$('#login-form-link').removeClass('active');
+		$(this).addClass('active');
+		e.preventDefault();
+	});
+
+});	
+</script>
+<!--slider-->
+<script>
+    // The Slideshow class.
+class Slideshow {
+    constructor(el) {
+        
+        this.DOM = {el: el};
+      
+        this.config = {
+          slideshow: {
+            delay: 3000,
+            pagination: {
+              duration: 3,
+            }
+          }
+        };
+        
+        // Set the slideshow
+        this.init();
+      
+    }
+    init() {
+      
+      var self = this;
+      
+      // Charmed title
+      this.DOM.slideTitle = this.DOM.el.querySelectorAll('.slide-title');
+      this.DOM.slideTitle.forEach((slideTitle) => {
+        charming(slideTitle);
+      });
+      
+      // Set the slider
+      this.slideshow = new Swiper (this.DOM.el, {
+          
+          loop: true,
+          autoplay: {
+            delay: this.config.slideshow.delay,
+            disableOnInteraction: false,
+          },
+          speed: 500,
+          preloadImages: true,
+          updateOnImagesReady: true,
+          
+          // lazy: true,
+          // preloadImages: false,
+
+          pagination: {
+            el: '.slideshow-pagination',
+            clickable: true,
+            bulletClass: 'slideshow-pagination-item',
+            bulletActiveClass: 'active',
+            clickableClass: 'slideshow-pagination-clickable',
+            modifierClass: 'slideshow-pagination-',
+            renderBullet: function (index, className) {
+              
+              var slideIndex = index,
+                  number = (index <= 8) ? '0' + (slideIndex + 1) : (slideIndex + 1);
+              
+              var paginationItem = '<span class="slideshow-pagination-item">';
+              paginationItem += '<span class="pagination-number">' + number + '</span>';
+              paginationItem = (index <= 8) ? paginationItem + '<span class="pagination-separator"><span class="pagination-separator-loader"></span></span>' : paginationItem;
+              paginationItem += '</span>';
+            
+              return paginationItem;
+              
+            },
+          },
+
+          // Navigation arrows
+          navigation: {
+            nextEl: '.slideshow-navigation-button.next',
+            prevEl: '.slideshow-navigation-button.prev',
+          },
+
+          // And if we need scrollbar
+          scrollbar: {
+            el: '.swiper-scrollbar',
+          },
+        
+          on: {
+            init: function() {
+              self.animate('next');
+            },
+          }
+        
+        });
+      
+        // Init/Bind events.
+        this.initEvents();
+        
+    }
+    initEvents() {
+        
+        this.slideshow.on('paginationUpdate', (swiper, paginationEl) => this.animatePagination(swiper, paginationEl));
+        //this.slideshow.on('paginationRender', (swiper, paginationEl) => this.animatePagination());
+
+        this.slideshow.on('slideNextTransitionStart', () => this.animate('next'));
+        
+        this.slideshow.on('slidePrevTransitionStart', () => this.animate('prev'));
+            
+    }
+    animate(direction = 'next') {
+      
+        // Get the active slide
+        this.DOM.activeSlide = this.DOM.el.querySelector('.swiper-slide-active'),
+        this.DOM.activeSlideImg = this.DOM.activeSlide.querySelector('.slide-image'),
+        this.DOM.activeSlideTitle = this.DOM.activeSlide.querySelector('.slide-title'),
+        this.DOM.activeSlideTitleLetters = this.DOM.activeSlideTitle.querySelectorAll('span');
+      
+        // Reverse if prev  
+        this.DOM.activeSlideTitleLetters = direction === "next" ? this.DOM.activeSlideTitleLetters : [].slice.call(this.DOM.activeSlideTitleLetters).reverse();
+      
+        // Get old slide
+        this.DOM.oldSlide = direction === "next" ? this.DOM.el.querySelector('.swiper-slide-prev') : this.DOM.el.querySelector('.swiper-slide-next');
+        if (this.DOM.oldSlide) {
+          // Get parts
+          this.DOM.oldSlideTitle = this.DOM.oldSlide.querySelector('.slide-title'),
+          this.DOM.oldSlideTitleLetters = this.DOM.oldSlideTitle.querySelectorAll('span'); 
+          // Animate
+          this.DOM.oldSlideTitleLetters.forEach((letter,pos) => {
+            TweenMax.to(letter, .3, {
+              ease: Quart.easeIn,
+              delay: (this.DOM.oldSlideTitleLetters.length-pos-1)*.04,
+              y: '50%',
+              opacity: 0
+            });
+          });
+        }
+      
+        // Animate title
+        this.DOM.activeSlideTitleLetters.forEach((letter,pos) => {
+					TweenMax.to(letter, .6, {
+						ease: Back.easeOut,
+						delay: pos*.05,
+						startAt: {y: '50%', opacity: 0},
+						y: '0%',
+						opacity: 1
+					});
+				});
+      
+        // Animate background
+        TweenMax.to(this.DOM.activeSlideImg, 1.5, {
+            ease: Expo.easeOut,
+            startAt: {x: direction === 'next' ? 200 : -200},
+            x: 0,
+        });
+      
+        //this.animatePagination()
+    
+    }
+    animatePagination(swiper, paginationEl) {
+            
+      // Animate pagination
+      this.DOM.paginationItemsLoader = paginationEl.querySelectorAll('.pagination-separator-loader');
+      this.DOM.activePaginationItem = paginationEl.querySelector('.slideshow-pagination-item.active');
+      this.DOM.activePaginationItemLoader = this.DOM.activePaginationItem.querySelector('.pagination-separator-loader');
+      
+      console.log(swiper.pagination);
+      // console.log(swiper.activeIndex);
+      
+      // Reset and animate
+        TweenMax.set(this.DOM.paginationItemsLoader, {scaleX: 0});
+        TweenMax.to(this.DOM.activePaginationItemLoader, this.config.slideshow.pagination.duration, {
+          startAt: {scaleX: 0},
+          scaleX: 1,
+        });
+      
+      
+    }
+    
+}
+
+const slideshow = new Slideshow(document.querySelector('.slideshow'));
+
+</script>
+<!--slider-->
+<!--calender-->
+<script type="text/javascript">
+		var objCal1 = new AMIB.persianCalendar( 'pcal1' );
+
+
+		
+
+	</script>
+<!--calender-->
+<!--footer-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<!--footer-->
+<script src="js/bootstrap.min.js"></script>
+   		<!--دروس دانشگاهی کارشناسی-->
+<script>
+	(function($) {
+	
+	"use strict";
+	
+	//Hide Loading Box (Preloader)
+	function handlePreloader() {
+		if($('.preloader').length){
+			$('.preloader').delay(200).fadeOut(500);
+		}
+	}
+	
+	//Update Header Style and Scroll to Top
+	function headerStyle() {
+		if($('.main-header').length){
+			var windowpos = $(window).scrollTop();
+			var siteHeader = $('.main-header');
+			var sticky_header = $('.main-header .sticky-header, .header-style-five');
+			var scrollLink = $('.scroll-to-top');
+			if (windowpos > 55) {
+				siteHeader.addClass('fixed-header');
+				sticky_header.addClass("animated slideInDown");
+				scrollLink.fadeIn(300);
+			} else {
+				siteHeader.removeClass('fixed-header');
+				sticky_header.removeClass("animated slideInDown");
+				scrollLink.fadeOut(300);
+			}
+		}
+	}
+	
+	headerStyle();
+
+	//Submenu Dropdown Toggle
+	if($('.main-header li.dropdown ul').length){
+		$('.main-header li.dropdown').append('<div class="dropdown-btn"><span class="fa fa-angle-down"></span></div>');
+		
+		//Dropdown Button
+		$('.main-header li.dropdown .dropdown-btn').on('click', function() {
+			$(this).prev('ul').slideToggle(500);
+		});
+		
+		//Disable dropdown parent link
+		$('.main-header .navigation li.dropdown > a,.hidden-bar .side-menu li.dropdown > a').on('click', function(e) {
+			e.preventDefault();
+		});
+	}
+
+
+	//Hide / Show Pricing Features / Togglw
+	$('.price-block-two .show-btn').on('click', function(e) {
+		e.preventDefault();
+		$(this).parents('.price-block-two').toggleClass('show-features');
+	});
+
+
+	//Banner Carousel
+	if ($('.banner-carousel').length) {
+		$('.banner-carousel').owlCarousel({
+			animateOut: 'slideOutUp',
+    		animateIn: 'fadeDown',
+			loop:true,
+			margin:0,
+			nav:true,
+			singleItem:true,
+			smartSpeed: 500,
+			autoHeight: false,
+			autoplay: true,
+			autoplayTimeout:10000,
+			navText: [ '<span class="fa fa-angle-left"></span>', '<span class="fa fa-angle-right"></span>' ],
+			responsive:{
+				0:{
+					items:1
+				},
+				600:{
+					items:1
+				},
+				1024:{
+					items:1
+				},
+			}
+		});    		
+	}
+
+	
+	// Projects Carousel
+	if ($('.projects-carousel').length) {
+		$('.projects-carousel').owlCarousel({
+			loop:true,
+			margin:0,
+			nav:true,
+			smartSpeed: 500,
+			autoplay: true,
+			navText: [ '<span class="flaticon-back"></span>', '<span class="flaticon-right-arrow"></span>' ],
+			responsive:{
+				0:{
+					items:1
+				},
+				600:{
+					items:2
+				},
+				800:{
+					items:3
+				},
+				1024:{
+					items:4
+				},
+				1100:{
+					items:4
+				},
+				1200:{
+					items:5
+				},
+				1600:{
+					items:6
+				}
+			}
+		});    		
+	}
+	
+	
+	// Projects Carousel Two
+	if ($('.projects-carousel-two').length) {
+		$('.projects-carousel-two').owlCarousel({
+			loop:true,
+			margin:45,
+			nav:true,
+			smartSpeed: 500,
+			autoplay: true,
+			navText: [ '<span class="flaticon-back"></span>', '<span class="flaticon-right-arrow"></span>' ],
+			responsive:{
+				0:{
+					items:1
+				},
+				600:{
+					items:1
+				},
+				800:{
+					items:1
+				},
+				1024:{
+					items:1
+				},
+				1100:{
+					items:1
+				}
+			}
+		});    		
+	}
+	
+	
+	//Price Range Slider
+	if($('.price-range-slider').length){
+		$( ".price-range-slider" ).slider({
+			range: true,
+			min: 0,
+			max: 90,
+			values: [ 8, 85 ],
+			slide: function( event, ui ) {
+			$( "input.property-amount" ).val( ui.values[ 0 ] + " - " + ui.values[ 1 ] );
+			}
+		});
+		
+		$( "input.property-amount" ).val( $( ".price-range-slider" ).slider( "values", 0 ) + " - $" + $( ".price-range-slider" ).slider( "values", 1 ) );	
+	}
+	
+	
+	//Jquery Spinner / Quantity Spinner
+	if($('.quantity-spinner').length){
+		$("input.quantity-spinner").TouchSpin({
+		  verticalbuttons: true
+		});
+	}
+	
+	
+	// Projects Carousel Three
+	if ($('.projects-carousel-three').length) {
+		$('.projects-carousel-three').owlCarousel({
+			loop:true,
+			animateOut: 'slideOutUp',
+    		animateIn: 'slideDown',
+			margin:45,
+			nav:true,
+			smartSpeed: 500,
+			autoplay: true,
+			navText: [ '<span class="fas fa-angle-up"></span>', '<span class="fas fa-angle-down"></span>' ],
+			responsive:{
+				0:{
+					items:1
+				},
+				600:{
+					items:1
+				},
+				800:{
+					items:1
+				},
+				1024:{
+					items:1
+				},
+				1100:{
+					items:1
+				}
+			}
+		});    		
+	}
+	
+	
+	// Three Item Carousel
+	if ($('.three-item-carousel').length) {
+		$('.three-item-carousel').owlCarousel({
+			loop:true,
+			margin:0,
+			nav:true,
+			smartSpeed: 500,
+			autoplay: true,
+			navText: [ '<span class="flaticon-back"></span>', '<span class="flaticon-right-arrow"></span>' ],
+			responsive:{
+				0:{
+					items:1
+				},
+				600:{
+					items:1
+				},
+				800:{
+					items:2
+				},
+				1024:{
+					items:3
+				},
+				1100:{
+					items:3
+				}
+			}
+		});    		
+	}
+	
+	
+	// Client Testimonial Carousel
+	if ($('.client-testimonial-carousel').length) {
+		$('.client-testimonial-carousel').owlCarousel({
+			loop:true,
+			margin:60,
+			nav:true,
+			smartSpeed: 500,
+			autoplay: true,
+			navText: [ '<span class="flaticon-back"></span>', '<span class="flaticon-right-arrow"></span>' ],
+			responsive:{
+				0:{
+					items:1
+				},
+				600:{
+					items:2
+				},
+				800:{
+					items:2
+				},
+				1024:{
+					items:3
+				},
+				1100:{
+					items:3
+				},
+				1200:{
+					items:3
+				}
+			}
+		});    		
+	}
+	
+	
+	
+	// Testimonial Carousel
+	if ($('.testimonial-carousel').length) {
+		$('.testimonial-carousel').owlCarousel({
+			loop:true,
+			animateOut: 'slideOutUp',
+    		animateIn: 'slideDown',
+			margin:0,
+			nav:true,
+			smartSpeed: 500,
+			autoplay: true,
+			navText: [ '<span class="flaticon-back"></span>', '<span class="flaticon-right-arrow"></span>' ],
+			responsive:{
+				0:{
+					items:1
+				},
+				600:{
+					items:1
+				},
+				800:{
+					items:1
+				},
+				1024:{
+					items:1
+				},
+				1100:{
+					items:1
+				}
+			}
+		});    		
+	}
+	
+	
+	// Single Item Carousel
+	if ($('.single-item-carousel').length) {
+		$('.single-item-carousel').owlCarousel({
+			loop:true,
+			//animateOut: 'slideOutUp',
+    		//animateIn: 'slideDown',
+			margin:0,
+			nav:true,
+			smartSpeed: 500,
+			autoplay: true,
+			navText: [ '<span class="flaticon-back-5"></span>', '<span class="flaticon-next"></span>' ],
+			responsive:{
+				0:{
+					items:1
+				},
+				600:{
+					items:1
+				},
+				800:{
+					items:1
+				},
+				1024:{
+					items:1
+				},
+				1100:{
+					items:1
+				}
+			}
+		});    		
+	}
+	
+	
+	// News Carousel
+	if ($('.news-carousel').length) {
+		$('.news-carousel').owlCarousel({
+			loop:true,
+			margin:0,
+			nav:true,
+			smartSpeed: 500,
+			autoplay: true,
+			navText: [ '<span class="flaticon-back"></span>', '<span class="flaticon-right-arrow"></span>' ],
+			responsive:{
+				0:{
+					items:1
+				},
+				600:{
+					items:2
+				},
+				800:{
+					items:2
+				},
+				1024:{
+					items:3
+				},
+				1100:{
+					items:3
+				},
+				1200:{
+					items:3
+				}
+			}
+		});    		
+	}
+	
+
+	// Services Carousel
+	if ($('.services-carousel').length) {
+		$('.services-carousel').owlCarousel({
+			loop:true,
+			margin:30,
+			nav:false,
+			smartSpeed: 700,
+			autoplay: true,
+			responsive:{
+				0:{
+					items:1
+				},
+				600:{
+					items:1
+				},
+				1024:{
+					items:3
+				},
+				1280:{
+					items:3
+				}
+			}
+		});
+	}
+	
+	
+	// Client Carousel
+	if ($('.client-carousel').length) {
+		$('.client-carousel').owlCarousel({
+			loop:true,
+			margin:0,
+			nav:true,
+			smartSpeed: 700,
+			autoplay: true,
+			navText: [ '<span class="flaticon-back-5"></span>', '<span class="flaticon-next"></span>' ],
+			responsive:{
+				0:{
+					items:1
+				},
+				600:{
+					items:1
+				},
+				1024:{
+					items:1
+				},
+				1280:{
+					items:1
+				}
+			}
+		});
+	}
+	
+	
+	// Team Carousel
+	if ($('.team-carousel').length) {
+		$('.team-carousel').owlCarousel({
+			loop:true,
+			margin:30,
+			nav:true,
+			smartSpeed: 500,
+			autoplay: true,
+			navText: [ '<span class="flaticon-back"></span>', '<span class="flaticon-right-arrow"></span>' ],
+			responsive:{
+				0:{
+					items:1
+				},
+				600:{
+					items:2
+				},
+				800:{
+					items:2
+				},
+				1024:{
+					items:3
+				},
+				1100:{
+					items:3
+				}
+			}
+		});    		
+	}
+	
+	
+	// Product Carousel Slider
+	if ($('.history-carousel .content-carousel').length && $('.history-carousel .thumbs-carousel').length) {
+
+		var $sync3 = $(".history-carousel .content-carousel"),
+			$sync4 = $(".history-carousel .thumbs-carousel"),
+			flags = false,
+			durations = 500;
+
+			$sync3
+				.owlCarousel({
+					loop:false,
+					items: 1,
+					margin: 0,
+					nav: true,
+					navText: [ '<span class="icon flaticon-left-arrow"></span>', '<span class="icon flaticon-next-1"></span>' ],
+					dots: false,
+					autoplay: true,
+					autoplayTimeout: 5000
+				})
+				.on('changed.owl.carousel', function (e) {
+					if (!flags) {
+						flags = false;
+						$sync4.trigger('to.owl.carousel', [e.item.index, durations, true]);
+						flags = false;
+					}
+				});
+
+			$sync4
+				.owlCarousel({
+					loop:false,
+					margin: 0,
+					items: 1,
+					nav: true,
+					navText: [ '<span class="icon flaticon-left-arrow"></span>', '<span class="icon flaticon-next-1"></span>' ],
+					dots: false,
+					center: false,
+					autoplay: true,
+					autoplayTimeout: 5000,
+					responsive: {
+						0:{
+				            items:1,
+				            autoWidth: false
+				        },
+				        400:{
+				            items:1,
+				            autoWidth: false
+				        },
+				        600:{
+				            items:1,
+				            autoWidth: false
+				        },
+				        900:{
+				            items:1,
+				            autoWidth: false
+				        },
+				        1000:{
+				            items:1,
+				            autoWidth: false
+				        }
+				    },
+				})
+				
+		.on('click', '.owl-item', function () {
+			$sync3.trigger('to.owl.carousel', [$(this).index(), durations, true]);
+		})
+		.on('changed.owl.carousel', function (e) {
+			if (!flags) {
+				flags = true;		
+				$sync3.trigger('to.owl.carousel', [e.item.index, durations, true]);
+				flags = false;
+			}
+		});
+
+	}
+
+	
+	
+	// Sponsors Carousel
+	if ($('.sponsors-carousel').length) {
+		$('.sponsors-carousel').owlCarousel({
+			loop:true,
+			margin:30,
+			nav:true,
+			smartSpeed: 500,
+			autoplay: true,
+			navText: [ '<span class="flaticon-back"></span>', '<span class="flaticon-next-1"></span>' ],
+			responsive:{
+				0:{
+					items:1
+				},
+				600:{
+					items:2
+				},
+				768:{
+					items:3
+				},
+				1024:{
+					items:5
+				}
+			}
+		});
+	}
+	
+	
+	// Sponsors Carousel Two
+	if ($('.sponsors-carousel-two').length) {
+		$('.sponsors-carousel-two').owlCarousel({
+			loop:true,
+			margin:30,
+			nav:true,
+			smartSpeed: 500,
+			autoplay: true,
+			navText: [ '<span class="flaticon-back"></span>', '<span class="flaticon-next-1"></span>' ],
+			responsive:{
+				0:{
+					items:1
+				},
+				600:{
+					items:2
+				},
+				768:{
+					items:3
+				},
+				1024:{
+					items:4
+				}
+			}
+		});
+	}
+	
+
+	//Accordion Box
+	if($('.accordion-box').length){
+		$(".accordion-box").on('click', '.acc-btn', function() {
+			
+			var outerBox = $(this).parents('.accordion-box');
+			var target = $(this).parents('.accordion');
+			
+			if($(this).hasClass('active')!==true){
+				$(outerBox).find('.accordion .acc-btn').removeClass('active');
+			}
+			
+			if ($(this).next('.acc-content').is(':visible')){
+				return false;
+			}else{
+				$(this).addClass('active');
+				$(outerBox).children('.accordion').removeClass('active-block');
+				$(outerBox).find('.accordion').children('.acc-content').slideUp(300);
+				target.addClass('active-block');
+				$(this).next('.acc-content').slideDown(300);	
+			}
+		});	
+	}
+	
+
+	//Tabs Box
+	if($('.tabs-box').length){
+		$('.tabs-box .tab-buttons .tab-btn').on('click', function(e) {
+			e.preventDefault();
+			var target = $($(this).attr('data-tab'));
+			
+			if ($(target).is(':visible')){
+				return false;
+			}else{
+				target.parents('.tabs-box').find('.tab-buttons').find('.tab-btn').removeClass('active-btn');
+				$(this).addClass('active-btn');
+				target.parents('.tabs-box').find('.tabs-content').find('.tab').fadeOut(0);
+				target.parents('.tabs-box').find('.tabs-content').find('.tab').removeClass('active-tab animated fadeIn');
+				$(target).fadeIn(0);
+				$(target).addClass('active-tab animated fadeIn');
+			}
+		});
+	}
+
+
+	//Masonary
+	function enableMasonry() {
+		if($('.masonry-items-container').length){
+	
+			var winDow = $(window);
+			// Needed variables
+			var $container=$('.masonry-items-container');
+	
+			$container.isotope({
+				itemSelector: '.masonry-item',
+				 masonry: {
+					columnWidth : 1
+				 },
+				animationOptions:{
+					duration:500,
+					easing:'linear'
+				}
+			});
+	
+			winDow.bind('resize', function(){
+
+				$container.isotope({ 
+					itemSelector: '.masonry-item',
+					animationOptions: {
+						duration: 500,
+						easing	: 'linear',
+						queue	: false
+					}
+				});
+			});
+		}
+	}
+	
+	enableMasonry();
+	
+	
+	
+	//
+	//====================================================================//
+	// Sortable Masonary with Filters
+	//====================================================================//
+	//
+	function sortableMasonry() {
+		if($('.sortable-masonry').length){
+	
+			var winDow = $(window);
+			// Needed variables
+			var $container=$('.sortable-masonry .items-container');
+			var $filter=$('.filter-btns');
+	
+			$container.isotope({
+				filter:'*',
+				 masonry: {
+					columnWidth : '.masonry-item.col-lg-6'
+				 },
+				animationOptions:{
+					duration:500,
+					easing:'linear'
+				}
+			});
+			// Isotope Filter 
+			$filter.find('li').on('click', function(){
+				var selector = $(this).attr('data-filter');
+	
+				try {
+					$container.isotope({ 
+						filter	: selector,
+						animationOptions: {
+							duration: 500,
+							easing	: 'linear',
+							queue	: false
+						}
+					});
+				} catch(err) {
+	
+				}
+				return false;
+			});
+	
+	
+			winDow.bind('resize', function(){
+				var selector = $filter.find('li.active').attr('data-filter');
+
+				$container.isotope({ 
+					filter	: selector,
+					animationOptions: {
+						duration: 500,
+						easing	: 'linear',
+						queue	: false
+					}
+				});
+			});
+	
+	
+			var filterItemA	= $('.filter-btns li');
+	
+			filterItemA.on('click', function(){
+				var $this = $(this);
+				if ( !$this.hasClass('active')) {
+					filterItemA.removeClass('active');
+					$this.addClass('active');
+				}
+			});
+		}
+	}
+	
+	sortableMasonry();
+
+
+	//Progress Bar
+	if($('.progress-line').length){
+		$('.progress-line').appear(function(){
+			var el = $(this);
+			var percent = el.data('width');
+			$(el).css('width',percent+'%');
+		},{accY: 0});
+	}
+
+
+	//Fact Counter + Text Count
+	if($('.count-box').length){
+		$('.count-box').appear(function(){
+	
+			var $t = $(this),
+				n = $t.find(".count-text").attr("data-stop"),
+				r = parseInt($t.find(".count-text").attr("data-speed"), 10);
+				
+			if (!$t.hasClass("counted")) {
+				$t.addClass("counted");
+				$({
+					countNum: $t.find(".count-text").text()
+				}).animate({
+					countNum: n
+				}, {
+					duration: r,
+					easing: "linear",
+					step: function() {
+						$t.find(".count-text").text(Math.floor(this.countNum));
+					},
+					complete: function() {
+						$t.find(".count-text").text(this.countNum);
+					}
+				});
+			}
+			
+		},{accY: 0});
+	}
+
+	
+	//Custom Seclect Box
+	if($('.custom-select-box').length){
+		$('.custom-select-box').selectmenu().selectmenu('menuWidget').addClass('overflow');
+	}
+	
+
+	//LightBox / Fancybox
+	if($('.lightbox-image').length) {
+		$('.lightbox-image').fancybox({
+			openEffect  : 'fade',
+			closeEffect : 'fade',
+			helpers : {
+				media : {}
+			}
+		});
+	}
+	
+	
+	//Contact Form Validation
+	if($('#contact-form').length){
+		$('#contact-form').validate({
+			rules: {
+				username: {
+					required: true
+				},
+				email: {
+					required: true,
+					email: true
+				},
+				phone: {
+					required: true
+				},
+				website: {
+					required: true
+				},
+				message: {
+					required: true
+				}
+			}
+		});
+	}
+	
+	
+	// Scroll to a Specific Div
+	if($('.scroll-to-target').length){
+		$(".scroll-to-target").on('click', function() {
+			var target = $(this).attr('data-target');
+		   // animate
+		   $('html, body').animate({
+			   scrollTop: $(target).offset().top
+			 }, 1500);
+	
+		});
+	}
+	
+	
+	// Elements Animation
+	if($('.wow').length){
+		var wow = new WOW(
+		  {
+			boxClass:     'wow',      // animated element css class (default is wow)
+			animateClass: 'animated', // animation css class (default is animated)
+			offset:       0,          // distance to the element when triggering the animation (default is 0)
+			mobile:       false,       // trigger animations on mobile devices (default is true)
+			live:         true       // act on asynchronously loaded content (default is true)
+		  }
+		);
+		wow.init();
+	}
+	
+
+	//Gallery Filters
+	 if($('.filter-list').length){
+	 	 $('.filter-list').mixItUp({});
+	 }
+
+
+/* ==========================================================================
+   When document is Scrollig, do
+   ========================================================================== */
+	
+	$(window).on('scroll', function() {
+		headerStyle();
+	});
+	
+/* ==========================================================================
+   When document is loading, do
+   ========================================================================== */
+	
+	$(window).on('load', function() {
+		handlePreloader();
+		enableMasonry();
+		sortableMasonry();
+	});	
+
+})(window.jQuery);
+	</script>
+       <script type="text/javascript" src="css/carousel.min.js"></script>
+	   <!--دروس دانشگاهی کارشناسی-->
+	   <!--مشتریان ما-->
+	   
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+
+	   <script>
+		   $(document).ready(function(){
+    $('.customer-logos').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 4
+            }
+        }, {
+            breakpoint: 520,
+            settings: {
+                slidesToShow: 3
+            }
+        }]
+    });
+});
+	</script>
+	   <!--مشتریان ما-->
+<!--comments-->
+    <script>
+	
+$(document).ready(function() {
+	  $("#news-slider2").owlCarousel({
+        items:3,
+        itemsDesktop:[1199,2],
+        itemsDesktopSmall:[980,2],
+        itemsMobile:[600,1],
+        pagination:false,
+        navigationText:false,
+        autoPlay:true
+    });
+	    $("#news-slider6").owlCarousel({
+        items : 3,
+        itemsDesktop:[1199,3],
+        itemsDesktopSmall:[980,2],
+        itemsMobile : [600,1],
+        pagination:false,
+        navigationText:false,
+		autoPlay:true
+    });
+	
+    $("#news-slider7").owlCarousel({
+        items : 3,
+        itemsDesktop : [1199,3],
+        itemsDesktopSmall : [1000,2],
+        itemsMobile : [650,1],
+        pagination :false,
+        autoPlay : true
+    });
+    $("#news-slider12").owlCarousel({
+        items : 2,
+        itemsDesktop:[1199,2],
+        itemsDesktopSmall:[980,1],
+        itemsTablet: [600,1],
+        itemsMobile : [550,1],
+        pagination:true,
+        autoPlay:true
+    });
+    
+  
+});
+
+
+
+
+	</script>
+    <script type="text/javascript" src="css/carousel.min.js"></script>
+<!--comments-->
+</body>
+
+</html>

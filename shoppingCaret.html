@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="fa">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="content-language" content="fa-IR">
+	<title>ShoppingCaret</title>
+	<link rel="stylesheet" href="css/main.css">
+<!--calender-->
+	<meta http-equiv="content-language" content="fa-IR">
+		<link rel="stylesheet" href="css/js-persian-cal.css">
+	<script type="text/javascript" src="css/js-persian-cal.min.js"></script>
+<!--calender-->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-grid.css">
+	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+<!--shopping-caret-->
+<script src="//production-assets.codepen.io/assets/editor/live/console_runner-079c09a0e3b9ff743e39ee2d5637b9216b3545af0de366d4b9aad9dc87e26bfd.js"></script>
+<script src="//production-assets.codepen.io/assets/editor/live/events_runner-73716630c22bbc8cff4bd0f07b135f00a0bdc5d14629260c3ec49e5606f98fdd.js"></script>
+<script src="//production-assets.codepen.io/assets/editor/live/css_live_reload_init-2c0dc5167d60a5af3ee189d570b1835129687ea2a61bee3513dee3a50c115a77.js"></script>
+<meta name="robots" content="noindex">
+<link rel="shortcut icon" type="image/x-icon" href="//production-assets.codepen.io/assets/favicon/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico" />
+<link rel="mask-icon" type="" href="//production-assets.codepen.io/assets/favicon/logo-pin-f2d2b6d2c61838f7e76325261b7195c27224080bc099486ddd6dccb469b8e8e6.svg" color="#111" />
+<link rel="canonical" href="https://codepen.io/alex_rodrigues/pen/ABGdg?depth=everything&order=popularity&page=32&q=product&show_forks=false" />
+<script src="https://s.codepen.io/assets/libs/modernizr.js" type="text/javascript"></script>
+<!--shopping-caret-->
+</head> 
+
+<body>
+    <div class="top bg-dark text-light py-3">
+        <div class="container-nav topheader">
+           <div class="row">
+            <div class="col-xs-6 col-lg-8">
+                <div class="left mobile">
+                    <a class="btn btn-primary btn-sm" href="register.html" role="button" style="margin-right: -10px;">ثبت نام</a>
+                    <a class="btn btn-primary btn-sm" href="login.html" role="button">ورود</a>
+                </div>
+			   </div>
+                <!--search-->
+	<div class="row justify-content-right" style="margin-right: auto;margin-left: auto;">
+          <form class="form-inline">
+          		<button class="btn search btn-outline-success my-2 my-sm-0 " type="submit">جستجو</button>
+				<input class="form-control mr-sm-2" type="search" placeholder="جستجو کنید" aria-label="Search">
+		</form>
+    </div>
+            </div>
+                <!--search-->
+        </div>
+   </div>
+   <nav class="navbar navbar-expand-lg navbar-light bg-light bottom bg-light sticky-top shadow-sm"  style="direction: rtl;">
+    <div class="container-nav">
+			<a  class="headerLogo flex-row" href="default.html">
+				<div  class="logoHolder flex-col">
+					<img class="img-responsive logo" alt="تدریسکده" src="images/logo۱.png">
+				</div>
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+		</div>
+           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    			<ul class="navbar-nav ml-auto nav-fill nav-buttom">
+      				<li class="nav-item active">
+                    <a class="nav-link bg-primary text-white" terget="_blank" href="default.html"><i class="fas fa-home"></i> <span class="d-none d-sm-inline-block d-md-inline-block">صفحه اصلی</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" terget="_blank" href="default.html"><i class="fas fa-file-invoice"></i> <span class="d-none d-sm-inline-block d-md-inline-block">سئوالات کنکور</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="default.html"><i class="fas fa-briefcase"></i> <span class="d-none d-sm-inline-block d-md-inline-block">نمونه امتحان های استخدامی</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link text-dark dropdown-toggle" href="default.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-book"></i> <span class="d-none d-sm-inline-block d-md-inline-block">دروس دانشگاهی</span><span class="caret"></span></a>
+                    <ul class="dropdown-menu mega" aria-labelledby="navbarDropdown">
+						<ul class="sub-menu">
+							<li class="dropdown-header">فنی و مهندسی</li>
+							<li><a href="">مهندسی کامپیوتر</a></li>
+							<li><a href="">مهندسی صنایع</a></li>
+							<li><a href="">مهندسی مکانیک</a></li>
+							<li><a href="">مهندسی برق</a></li>
+							<li><a href="">مهندسی شیمی</a></li>
+						</ul>
+						<ul class="sub-menu">
+							<li class="dropdown-header">علوم انسانی</li>
+							<li><a href="">زبان وادبيات فارسی</a></li>
+							<li><a href="">مجموعه علوم ورزشی</a></li>
+							<li><a href="">تاريخ</a></li>
+							<li><a href="">مجموعه علوم اقتصادی</a></li>
+							<li><a href="">مجموعه زبان شناسی</a></li>
+						</ul>
+						<ul class="sub-menu">
+							<li class="dropdown-header">علوم پایه</li>
+							<li><a href="">فیزیک</a></li>
+							<li><a href="">شیمی</a></li>
+							<li><a href="">زیست شناسی</a></li>
+							<li><a href="">ریاضی</a></li>
+						</ul>
+					</ul>
+<!--                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					  <a class="dropdown-item" href="#">Action</a>
+					  <a class="dropdown-item" href="#">Another action</a>
+					  <div class="dropdown-divider"></div>
+					  <a class="dropdown-item" href="#">Something else here</a>
+					</div>-->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="aboutUs.html"><i class="fas fa-user-circle"></i> <span class="d-none d-sm-inline-block d-md-inline-block">درباره ما</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="contactUs.html"><i class="fas fa-phone"></i> <span class="d-none d-sm-inline-block d-md-inline-block">تماس با ما</span></a>
+                </li>
+                <li class="dropdown" style="margin-right: 160px;">
+			  <a href="#" class="nav-link text-dark dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> <i class="fa fa-shopping-cart"></i><span class="d-none d-sm-inline-block d-md-inline-block">تعداد خرید:7</span></a>
+			  <ul class="dropdown-menu dropdown-cart" role="menu">
+				  <li>
+					  <span class="item">
+						<span class="item-left">
+							<img src="http://lorempixel.com/50/50/" alt="" />
+							<span class="item-info">
+								<span>اسم محصول</span>
+								<span>۱۰۰۰۰ریال</span>
+							</span>
+						</span>
+						<span class="item-right">
+							<button class="btn btn-xs btn-danger pull-right">x</button>
+						</span>
+					</span>
+				  </li>
+				  <li>
+					  <span class="item">
+						<span class="item-left">
+							<img src="http://lorempixel.com/50/50/" alt="" />
+							<span class="item-info">
+								<span>اسم محصول</span>
+								<span>۱۰۰۰۰ریال</span>
+							</span>
+						</span>
+						<span class="item-right">
+							<button class="btn btn-xs btn-danger pull-right">x</button>
+						</span>
+					</span>
+				  </li>
+				  <li>
+					  <span class="item">
+						<span class="item-left">
+							<img src="http://lorempixel.com/50/50/" alt="" />
+							<span class="item-info">
+								<span>نام محصول</span>
+								<span>۱۰۰۰۰ریال</span>
+							</span>
+						</span>
+						<span class="item-right">
+							<button class="btn btn-xs btn-danger pull-right">x</button>
+						</span>
+					</span>
+				  </li>
+				  <li>
+					  <span class="item">
+						<span class="item-left">
+							<img src="http://lorempixel.com/50/50/" alt="" />
+							<span class="item-info">
+								<span>نام محصول</span>
+								<span>۱۰۰۰۰ریال</span>
+							</span>
+						</span>
+						<span class="item-right">
+							<button class="btn btn-xs btn-danger pull-right">x</button>
+						</span>
+					</span>
+				  </li>
+				  <li class="divider"></li>
+				  <li><a class="text-center" href="shoppingCaret.html">نمایش خریدها</a></li>
+				</ul>
+			</li>
+          </ul>
+
+    </div>
+	</nav>
+  <div class="wrap cf">
+  <h1 class="projTitle">مشاهده تمام خریدها</h1>
+  <div class="heading cf">
+    <h1>خریدهای من</h1>
+    <a href="#" class="continue">ادامه خرید</a>
+  </div>
+  <div class="cart">
+<!--    <ul class="tableHead">
+      <li class="prodHeader">Product</li>
+      <li>Quantity</li>
+      <li>Total</li>
+       <li>Remove</li>
+    </ul>-->
+    <ul class="cartWrap">
+      <li class="items odd">
+        
+    <div class="infoWrap"> 
+        <div class="cartSection">
+        <img src="http://lorempixel.com/output/technics-q-c-300-300-4.jpg" alt="" class="itemImg" />
+          <p class="itemNumber">#QUE-007544-002</p>
+          <h3>محصول اول</h3>
+        
+           <p> <input type="number"  class="qty" style="width:20%"> x ۱۰۰۰۰ریال</p>
+        
+          <p class="stockStatus"> موجود هست</p>
+        </div>  
+    
+        
+        <div class="prodTotal cartSection">
+          <p>۱۰۰۰۰ریال</p>
+        </div>
+              <div class="cartSection removeWrap">
+           <a href="#" class="remove">x</a>
+        </div>
+      </div>
+      </li>
+      <li class="items even">
+        
+    <div class="infoWrap"> 
+        <div class="cartSection">
+        <img src="http://lorempixel.com/output/technics-q-c-300-300-4.jpg" alt="" class="itemImg" />
+          <p class="itemNumber">#QUE-007544-002</p>
+          <h3>محصول اول</h3>
+        
+           <p> <input type="number"  class="qty" style="width:20%" placeholder="۰"> x ۱۰۰۰۰ریال</p>
+        
+          <p class="stockStatus"> موجود هست</p>
+        </div>  
+    
+        
+        <div class="prodTotal cartSection">
+          <p>۱۰۰۰۰ریال</p>
+        </div>
+              <div class="cartSection removeWrap">
+           <a href="#" class="remove">x</a>
+        </div>
+      </div>
+      </li>
+      
+            <li class="items odd">
+    <div class="infoWrap"> 
+        <div class="cartSection">
+        <img src="http://lorempixel.com/output/technics-q-c-300-300-4.jpg" alt="" class="itemImg" />
+          <p class="itemNumber">#QUE-007544-002</p>
+          <h3>محصول اول</h3>
+        
+           <p> <input type="number"  class="qty" style="width:20%" placeholder="۰"> x ۱۰۰۰۰ریال</p>
+        
+          <p class="stockStatus"> موجود هست</p>
+        </div>  
+    
+        
+        <div class="prodTotal cartSection">
+          <p>۱۰۰۰۰ریال</p>
+        </div>
+              <div class="cartSection removeWrap">
+           <a href="#" class="remove">x</a>
+        </div>
+      </div>
+      </li>
+      <li class="items even">
+    <div class="infoWrap"> 
+        <div class="cartSection">
+        <img src="http://lorempixel.com/output/technics-q-c-300-300-4.jpg" alt="" class="itemImg" />
+          <p class="itemNumber">#QUE-007544-002</p>
+          <h3>محصول اول</h3>
+        
+           <p> <input type="number"  class="qty" style="width:20%" placeholder="۰"> x ۱۰۰۰۰ریال</p>
+        
+          <p class="stockStatus"> موجود هست</p>
+        </div>  
+    
+        
+        <div class="prodTotal cartSection">
+          <p>۱۰۰۰۰ریال</p>
+        </div>
+              <div class="cartSection removeWrap">
+           <a href="#" class="remove">x</a>
+        </div>
+      </div>
+         <div class="special"><div class="specialContent">تخفیف ویژه برای این محصول</div></div>
+      </li>
+      
+      
+      <!--<li class="items even">Item 2</li>-->
+ 
+    </ul>
+  </div>
+  
+  <div class="promoCode"><label for="promo">کد تخفیف دارید؟</label><input type="text" name="promo" placholder="کد را وارد کنید" />
+  <a href="#" class="btn"></a></div>
+  
+  <div class="subtotal cf">
+    <ul>
+      <li class="totalRow"><span class="label">مجموع</span><span class="value">۴۵۰۰۰۰ریال</span></li>
+      
+          <li class="totalRow"><span class="label">هزینه ارسال</span><span class="value">۵۰۰۰ریال۰</span></li>
+      
+            <li class="totalRow"><span class="label">مالیات</span><span class="value">۳۰۰۰۰ریال</span></li>
+            <li class="totalRow final"><span class="label">جمع کل</span><span class="value">۵۵۰۰۰۰ریال</span></li>
+      <li class="totalRow"><a href="#" class="btn continue">پرداخت</a></li>
+    </ul>
+  </div>
+</div>
+     			   			
+				<!--login-->
+	<!--footer starts from here-->
+<footer class="footer">
+<div class="container bottom_border">
+<div class="row">
+<div class=" col-sm-4 col-md col-sm-4  col-12 col">
+<h5 class="headin5_amrc col_white_amrc pt2">درباره ما</h5>
+<!--headin5_amrc-->
+<p class="mb10 justify-content-start">موسسه تدریسکده با شعار فکر کنید و رشد کنید در تلاش است تا تمام محتوای مورد نیز دانشجویان و کنکوری ها را فراهم کند و به دانشجویان از  ورود به دانشگاه تا فارغ التحصیلی و کاریابی یاری رساند و همراه آنها میباشد. </p>
+<p><i class="fa fa-location-arrow"></i>  ...خیابان </p>
+<p><i class="fa fa-phone"></i>  +91-9999878398  </p>
+<p><i class="fa fa fa-envelope"></i> info@example.com  </p>
+
+</div>
+
+<div class=" col-sm-4 col-md  col-6 col">
+<h5 class="headin5_amrc col_white_amrc pt2">لینک ها مفید</h5>
+<!--headin5_amrc-->
+<ul class="footer_ul_amrc">
+<li><a href="#">مقالات</a></li>
+<li><a href="#">سئوالات متداول</a></li>
+<li><a href="#">تماس با ما</a></li>
+<li><a href="#">فروشگاه ما</a></li>
+<li><a href="#">همکاری با ما</a></li>
+</ul>
+<!--footer_ul_amrc ends here-->
+</div>
+
+
+<div class=" col-sm-4 col-md  col-6 col">
+<h5 class="headin5_amrc col_white_amrc pt2">دروس دانشگاهی</h5>
+<!--headin5_amrc-->
+<ul class="footer_ul_amrc">
+<li><a href="#">دروس کاردانی</a></li>
+<li><a href="#">دروس کارشناسی</a></li>
+<li><a href="#">دروس کارشناسی ارشد</a></li>
+<li><a href="#">دروس دکترا</a></li>
+<li><a href="#">دروس فوق دکترا</a></li>
+</ul>
+<!--footer_ul_amrc ends here-->
+</div>
+
+
+<div class=" col-sm-4 col-md  col-12 col">
+<h5 class="headin5_amrc col_white_amrc pt2">ما را دنبال کنید</h5>
+<!--headin5_amrc ends here-->
+
+<ul class="footer_ul2_amrc">
+<li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>ما را در شبکه های اجتماعی دنبال کنید<a href="#">https://www.lipsum.com/</a></p></li>
+<li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>ما را در شبکه های اجتماعی دنبال کنید<a href="#">https://www.lipsum.com/</a></p></li>
+	</ul>
+<div class="section-heading">
+      <h5 class="headin5_amrc col_white_amrc pt2">با ما در ارتباط باشید</h5>
+      <span class="animate-border border-black"></span>
+</div>
+<p><!-- Don’t miss to subscribe to our new feeds, kindly fill the form below. -->
+برای اطلاع از جدیدترین دروس و تخفیف‌ها ایمیل خود را وارد کنید </p>
+<form action="#">
+     <div class="form-row">
+           <div class="col dk-footer-form">
+                  <input type="email" class="form-control" placeholder=" ایمیل خود را وارد نمایید">
+                  <button type="submit">
+                  	<i class="fa fa-paper-plane"></i>
+                  </button>
+           </div>
+     </div>
+</form>
+<!--footer_ul2_amrc ends here-->
+</div>
+</div>
+</div>
+
+
+<div class="container">
+<ul class="foote_bottom_ul_amrc">
+<li><a href="#">صفحه اصلی</a></li>
+<li><a href="#">درباره ما</a></li>
+<li><a href="#">تماس با ما</a></li>
+<li><a href="#">فروشگاه</a></li>
+<li><a href="#">مقالات</a></li>
+<li><a href="#">دروس دانشگاهی</a></li>
+</ul>
+<!--foote_bottom_ul_amrc ends here-->
+<p class="text-center">Copyright @2017 Tadriskade.com | طراحی شده توسط <a href="#">شرکت فنی مهندسی تدریسکده</a></p>
+
+<ul class="social_footer_ul">
+<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+</ul>
+<!--social_footer_ul ends here-->
+</div>
+
+</footer>
+<!--fontawesom-->
+<script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
+<!--fontawesom-->
+<script>
+$(function() {
+
+    $('#login-form-link').click(function(e) {
+		$("#login-form").delay(100).fadeIn(100);
+ 		$("#register-form").fadeOut(100);
+		$('#register-form-link').removeClass('active');
+		$(this).addClass('active');
+		e.preventDefault();
+	});
+	$('#register-form-link').click(function(e) {
+		$("#register-form").delay(100).fadeIn(100);
+ 		$("#login-form").fadeOut(100);
+		$('#login-form-link').removeClass('active');
+		$(this).addClass('active');
+		e.preventDefault();
+	});
+
+});	
+</script>
+<!--calender-->
+<script type="text/javascript">
+		var objCal1 = new AMIB.persianCalendar( 'pcal1' );
+
+
+		
+
+	</script>
+<!--calender-->
+<!--shopping page-->
+<script src='//production-assets.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js'></script><script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script >// Remove Items From Cart
+$('a.remove').click(function(){
+  event.preventDefault();
+  $( this ).parent().parent().parent().hide( 400 );
+ 
+})
+
+// Just for testing, show all items
+  $('a.btn.continue').click(function(){
+    $('li.items').show(400);
+  })
+
+  
+//# sourceURL=pen.js
+</script>
+<!--shopping page-->
+<!--footer-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<!--footer-->
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
